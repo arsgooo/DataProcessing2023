@@ -1,0 +1,16 @@
+<section class="cars" id="cars">
+  <div class="heading">
+    <h2>Our cars</h2>
+  </div>
+
+  <button (click)="getEntities()" class="btn">Click to see the cars!</button>
+  <div class="shop-items">
+    <div class="shop-item" *ngFor="let ent of entityList">
+      <img src="{{ent.img}}" class="shop-item-image" alt="" />
+      <h3 class="shop-item-title">{{ent.name}}</h3>
+      <div class="shop-item-details">
+        <span class="shop-item-price">${{ent.price}}</span>
+      </div>
+    </div>
+  </div>
+</section>
