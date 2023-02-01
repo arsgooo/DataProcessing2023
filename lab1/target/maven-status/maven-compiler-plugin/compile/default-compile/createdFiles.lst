@@ -1,4 +1,4 @@
-Entities\Entity.class
+Entities\EntityCar.class
 Servlets\ServletWorker.class
-Servlets\Servlet.class
 Entities\EntityWorker.class
+Servlets\ServletCar.class

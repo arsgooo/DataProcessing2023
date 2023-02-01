@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Entity } from '../interfaces/entity';
+import { Car } from '../interfaces/car';
 import { Service1Service } from '../services/service1.service';
 
 @Component({
@@ -9,13 +9,13 @@ import { Service1Service } from '../services/service1.service';
 })
 export class CarsComponent {
   title = 'lab1-frontend';
-  entityList: Entity[] = [];
+  carList: Car[] = [];
 
   constructor(private service: Service1Service) {}
 
-  getEntities(): void {
-    this.service.getEntities().subscribe((entities) => {
-      this.entityList = entities;
+  getCars(): void {
+    this.service.getEntities().subscribe((cars) => {
+      this.carList = cars;
     });
   }
 }
