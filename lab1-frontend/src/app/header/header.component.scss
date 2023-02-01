@@ -57,30 +57,56 @@ header {
     z-index: 100001;
     display: none;
   }
-  .search-box {
+}
+
+@media (max-width: 1058px) {
+  header {
+    padding: 16px 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 16px 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 12px 4%;
+  }
+  #menu-icon {
+    display: initial;
+  }
+  .navbar {
     position: absolute;
-    top: -100%;
-    left: 50%;
-    right: 0%;
-    transform: translate(-50%);
-    background: $bg-color;
-    width: 100%;
-    .active {
-      top: 110%;
-      box-shadow: $box-shadow;
-      transition: 0.2s all linear;
-    }
-    input {
-      padding: 20px;
-      border: none;
-      outline: none;
-      width: 100%;
-      font-size: 1rem;
-      color: $main-color;
-      &::placeholder {
-        font-size: 1rem;
-        font-weight: 500;
-      }
-    }
+    top: -570px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--second-color);
+    row-gap: 1.4rem;
+    padding: 20px;
+    transition: 0.3s;
+    text-align: center;
+  }
+  .navbar a {
+    color: var(--text-color);
+  }
+  .navbar a:hover {
+    color: var(--bg-color);
+  }
+  .navbar.active {
+    top: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  header {
+    padding: 9px 4%;
+  }
+  .logo img {
+    width: 45px;
   }
 }

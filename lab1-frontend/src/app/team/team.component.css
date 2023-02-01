@@ -43,7 +43,7 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-.team-container .box :hover {
-  background: beige;
+.team-container .box:hover {
+  background-color: beige;
   transition: 0.2s all linear;
 }/*# sourceMappingURL=team.component.css.map */

@@ -4,38 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5159d-92d0-4bd0-b51a-81820cf131ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab1-frontend/.hintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entities/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entities/EntityWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/ServletWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/3rdpartylicenses.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/BATT-UMG.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/HUSKY-TSV.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/Stand-With-Ukraine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/Terrier-LT-79.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/arm-car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/armored-vehicle_about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/man-1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/man-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/man-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.0dedb965d92bd55f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/polyfills.2b8d5a69a1abacc7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/runtime.69d4fb15d06649c7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles.c0a03d714bcc0945.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="73c5159d-92d0-4bd0-b51a-81820cf131ef" name="Changes" comment="lab1 added">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles.5139221a12927daa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/about/about.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/about/about.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/about/about.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/about/about.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/about/about.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/about/about.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/cars/cars.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/cars/cars.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/cars/cars.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/cars/cars.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/home/home.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/home/home.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/team/team.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/team/team.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/app/team/team.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/app/team/team.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-frontend/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-frontend/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.0dedb965d92bd55f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles.c0a03d714bcc0945.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab1-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab1-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab1-1.0-SNAPSHOT/main.0dedb965d92bd55f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab1-1.0-SNAPSHOT/styles.c0a03d714bcc0945.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,9 +121,19 @@
       <option name="presentableId" value="Default" />
       <updated>1675001539904</updated>
     </task>
+    <task id="LOCAL-00001" summary="lab1 added">
+      <created>1675244015503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675244015503</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="lab1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab1 added" />
   </component>
 </project>

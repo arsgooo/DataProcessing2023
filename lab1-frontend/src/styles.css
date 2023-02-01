@@ -29,4 +29,23 @@ img {
 .heading h2 {
   font-size: 1.8rem;
   text-transform: uppercase;
+}
+
+@media (max-width: 1058px) {
+  section {
+    padding: 50px 60px;
+  }
+}
+@media (max-width: 991px) {
+  section {
+    padding: 50px 4%;
+  }
+}
+@media (max-width: 360px) {
+  .logo img {
+    width: 45px;
+  }
+  .heading h2 {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
