@@ -17,6 +17,7 @@
       {
         "link-name": "off"
       }
-    ]
+    ],
+    "css-prefix-order": "off"
   }
 }

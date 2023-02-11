@@ -1,0 +1,15 @@
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 0.3rem;
+  background-position: #160a86;
+  background-color: #160a86;
+  color: #cae4d8;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: beige;
+  color: #1b1b1b;
+  border: 1px solid black;
+  cursor: pointer;
+}/*# sourceMappingURL=doput-form.component.css.map */

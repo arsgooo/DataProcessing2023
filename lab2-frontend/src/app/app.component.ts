@@ -8,7 +8,7 @@ import { Service1Service } from './services/service1.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'lab1-frontend';
+  title = 'lab2-frontend';
   carList: Car[] = [];
 
   constructor(private service: Service1Service) {}
