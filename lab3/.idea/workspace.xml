@@ -5,171 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73c5159d-92d0-4bd0-b51a-81820cf131ef" name="Changes" comment="little changes">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Crud/CrudInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Crud/FileCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entities/CarList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entities/EntityCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FileIO/FileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FileIO/FileIOInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/ServletCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/ServletCarConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/ServletCarConfigInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/3rdpartylicenses.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/BATT-UMG.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/HUSKY-TSV.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/Stand-With-Ukraine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/Terrier-LT-79.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/arm-car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/armored-vehicle_about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/man-1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/man-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/man-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/polyfills.86cbdc8d4a431133.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/runtime.343e110cfb603c91.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles.5139221a12927daa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/.hintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/about/about.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/about/about.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/about/about.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/about/about.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/about/about.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/about/about.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/cars/cars.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/cars/cars.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/cars/cars.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/cars/cars.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/cars/cars.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/cars/cars.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/doput-form/doput-form.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/doput-form/doput-form.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/doput-form/doput-form.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/doput-form/doput-form.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/doput-form/doput-form.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/doput-form/doput-form.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/footer/footer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/footer/footer.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/footer/footer.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/footer/footer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/header/header.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/header/header.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/header/header.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/header/header.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/header/header.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/header/header.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/home/home.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/home/home.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/home/home.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/home/home.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/interfaces/car.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/services/service1.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/services/service1.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/team/team.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/team/team.component.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/team/team.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/team/team.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/team/team.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/app/team/team.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/BATT-UMG.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/HUSKY-TSV.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/Stand-With-Ukraine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/Terrier-LT-79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/arm-car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/armored-vehicle_about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/man-1.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/man-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/assets/man-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2-frontend/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/Crud/CrudInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/Crud/FileCrud.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/Entities/EntityCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/FileIO/FileIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/FileIO/FileIOInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/Servlets/ServletCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/Servlets/ServletCarConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/Servlets/ServletCarConfigInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/BATT-UMG.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/HUSKY-TSV.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/Stand-With-Ukraine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/Terrier-LT-79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/arm-car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/armored-vehicle_about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/man-1.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/man-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/assets/man-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/main.5773dc036f147b25.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/polyfills.f0a648db96dbceb3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/runtime.7f4d8e557375a26c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/styles.5139221a12927daa.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/BATT-UMG.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/HUSKY-TSV.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/Stand-With-Ukraine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/Terrier-LT-79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/arm-car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/armored-vehicle_about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/man-1.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/man-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/assets/man-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/main.5773dc036f147b25.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/polyfills.f0a648db96dbceb3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/runtime.7f4d8e557375a26c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/lab2-1.0-SNAPSHOT/styles.5139221a12927daa.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3-frontend/src/app/carlist/carlist.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3-frontend/src/app/carlist/carlist.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3-frontend/src/app/update/update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3-frontend/src/app/update/update.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.e8c8a1086bf934e6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.0f6e382fb2ab443b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/main.e8c8a1086bf934e6.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/main.0f6e382fb2ab443b.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,6 +81,9 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/lab33" />
       <option name="docBase" value="D:\KNU_FIT\2nd grade\DataProcessing2023\lab3\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/10.1.5" />
