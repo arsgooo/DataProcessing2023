@@ -34,7 +34,6 @@ public class ServletCar extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        setAccessControlHeaders(response);
         String carsJson = new Gson().toJson(crud.read());
         PrintWriter out = response.getWriter();
         response.setContentType("application/json");
@@ -43,14 +42,12 @@ public class ServletCar extends HttpServlet {
     }
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        setAccessControlHeaders(response);
         CarEntity car = Helpers.carParse(request);
         crud.create(car);
         doGet(request, response);
     }
 
     public void doPut(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        setAccessControlHeaders(response);
         CarEntity car = Helpers.carParse(request);
         int id = Integer.parseInt(request.getPathInfo().substring(1));
         response.setContentType("application/json");
@@ -59,22 +56,10 @@ public class ServletCar extends HttpServlet {
     }
 
     public void doDelete(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        setAccessControlHeaders(response);
         int id = Integer.parseInt(request.getPathInfo().substring(1));
         response.setContentType("application/json");
         crud.delete(id);
         doGet(request, response);
-    }
-
-    protected void doOptions(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        setAccessControlHeaders(response);
-        response.setStatus(HttpServletResponse.SC_OK);
-    }
-
-    private void setAccessControlHeaders(HttpServletResponse response) {
-        response.setHeader("Access-Control-Allow-Origin", "*");
-        response.setHeader("Access-Control-Allow-Methods", "*");
-        response.setHeader("Access-Control-Allow-Headers", "*");
     }
 }
 

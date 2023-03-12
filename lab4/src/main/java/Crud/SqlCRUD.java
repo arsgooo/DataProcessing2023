@@ -2,14 +2,20 @@ package Crud;
 
 import Entities.CarEntity;
 import jdbc.Connect;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class SqlCRUD implements CRUDInterface<CarEntity> {
-
     Connection connection;
+    List<CarEntity> list = new ArrayList<>();
+    private SessionFactory sessionFactory;
 
     public SqlCRUD() {
         this.connection = new Connect().getCon();
@@ -24,7 +30,80 @@ public class SqlCRUD implements CRUDInterface<CarEntity> {
         this.connection = connection;
     }
 
+    public void setup() {
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                .configure()
+                .build();
+        this.sessionFactory = new MetadataSources(registry)
+                .addAnnotatedClass(CarEntity.class)
+                .buildMetadata()
+                .buildSessionFactory();
+    }
+
+    public void exit() {
+        this.sessionFactory.close();
+    }
+
+
     @Override
+    public void create(CarEntity car) {
+        setup();
+        Session session = sessionFactory.getCurrentSession();
+        session.beginTransaction();
+
+        session.save(car);
+
+        session.getTransaction().commit();
+        exit();
+    }
+
+    @Override
+    public List<CarEntity> read() {
+        setup();
+        Session session = sessionFactory.getCurrentSession();
+        session.beginTransaction();
+
+        list = (List<CarEntity>) session.createQuery("from CarEntity").list();
+
+        session.getTransaction().commit();
+        exit();
+
+        return list;
+    }
+
+    @Override
+    public void update(int id, CarEntity car) {
+        setup();
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+
+        CarEntity updatedCar = new CarEntity(id, car.getImg(), car.getName(), car.getPrice());
+        session.update(updatedCar);
+
+        session.getTransaction().commit();
+        session.close();
+        exit();
+    }
+
+    @Override
+    public void delete(int id) {
+        setup();
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+
+        session.delete(session.get(CarEntity.class, id));
+
+        session.getTransaction().commit();
+        session.close();
+        exit();
+    }
+
+
+
+
+
+    // ------------------------------------------------------------------------------------------------------------
+ /* @Override
     public void create(CarEntity car) {
         try(PreparedStatement st = connection.prepareStatement("INSERT INTO lab4schema.cars (img, name, price) "
                 + "VALUES (?, ?, ?);")) {
@@ -79,5 +158,5 @@ public class SqlCRUD implements CRUDInterface<CarEntity> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    }
+    } */
 }

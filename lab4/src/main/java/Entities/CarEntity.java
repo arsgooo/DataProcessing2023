@@ -58,12 +58,7 @@ public class CarEntity {
 
     @Override
     public String toString() {
-        return "CarEntity{" +
-                "id=" + id +
-                ", img='" + img + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return "{\"id\": \""+id+"\", \"img\": \""+img+"\", \"name\": \""+name+"\", \"price\": "+price+"}";
     }
 }
 
