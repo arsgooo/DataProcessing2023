@@ -15,7 +15,6 @@ import java.util.List;
 public class SqlCRUD implements CRUDInterface<CarEntity> {
     Connection connection;
     List<CarEntity> list = new ArrayList<>();
-    private SessionFactory sessionFactory;
 
     public SqlCRUD() {
         this.connection = new Connect().getCon();
@@ -30,72 +29,84 @@ public class SqlCRUD implements CRUDInterface<CarEntity> {
         this.connection = connection;
     }
 
-    public void setup() {
-        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
-                .configure()
-                .build();
-        this.sessionFactory = new MetadataSources(registry)
-                .addAnnotatedClass(CarEntity.class)
-                .buildMetadata()
-                .buildSessionFactory();
-    }
-
-    public void exit() {
-        this.sessionFactory.close();
-    }
-
 
     @Override
     public void create(CarEntity car) {
-        setup();
-        Session session = sessionFactory.getCurrentSession();
-        session.beginTransaction();
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                .configure()
+                .build();
+        try (SessionFactory sessionFactory = new MetadataSources(registry)
+                .addAnnotatedClass(CarEntity.class)
+                .buildMetadata()
+                .buildSessionFactory()) {
 
-        session.save(car);
+            Session session = sessionFactory.openSession();
+            session.beginTransaction();
 
-        session.getTransaction().commit();
-        exit();
+            session.save(car);
+
+            session.getTransaction().commit();
+        }
     }
 
     @Override
     public List<CarEntity> read() {
-        setup();
-        Session session = sessionFactory.getCurrentSession();
-        session.beginTransaction();
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                .configure()
+                .build();
+        try (SessionFactory sessionFactory = new MetadataSources(registry)
+                .addAnnotatedClass(CarEntity.class)
+                .buildMetadata()
+                .buildSessionFactory()) {
 
-        list = (List<CarEntity>) session.createQuery("from CarEntity").list();
+            Session session = sessionFactory.openSession();
+            session.beginTransaction();
 
-        session.getTransaction().commit();
-        exit();
+            list = (List<CarEntity>) session.createQuery("from CarEntity").list();
+
+            session.getTransaction().commit();
+        }
 
         return list;
     }
 
     @Override
     public void update(int id, CarEntity car) {
-        setup();
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                .configure()
+                .build();
+        try (SessionFactory sessionFactory = new MetadataSources(registry)
+                .addAnnotatedClass(CarEntity.class)
+                .buildMetadata()
+                .buildSessionFactory()) {
 
-        CarEntity updatedCar = new CarEntity(id, car.getImg(), car.getName(), car.getPrice());
-        session.update(updatedCar);
+            Session session = sessionFactory.openSession();
+            session.beginTransaction();
 
-        session.getTransaction().commit();
-        session.close();
-        exit();
+            CarEntity updatedCar = new CarEntity(id, car.getImg(), car.getName(), car.getPrice());
+            session.update(updatedCar);
+
+            session.getTransaction().commit();
+        }
     }
 
     @Override
     public void delete(int id) {
-        setup();
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                .configure()
+                .build();
+        try (SessionFactory sessionFactory = new MetadataSources(registry)
+                .addAnnotatedClass(CarEntity.class)
+                .buildMetadata()
+                .buildSessionFactory()) {
 
-        session.delete(session.get(CarEntity.class, id));
+            Session session = sessionFactory.openSession();
+            session.beginTransaction();
 
-        session.getTransaction().commit();
-        session.close();
-        exit();
+            session.delete(session.get(CarEntity.class, id));
+
+            session.getTransaction().commit();
+        }
     }
 
 
